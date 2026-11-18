@@ -86,4 +86,56 @@ Capabilities include:
 - Secure document storage
 - SSL/TLS encryption
 
-## Repository Structure
+### Supported Use Cases 
+- Immigration client intake
+- Family-based immigration assistance
+- Employment-based immigration support
+- Naturalization preparation
+- Humanitarian application guidance
+- Immigration information services
+- Community outreach programs
+- Nonprofit legal aid operations
+
+### Clinfera Integration 
+Clinfera extends the platform by providing semantic search and natural language understanding over immigration-related content. 
+
+### Example Queries 
+- "What documents are required for naturalization?"
+- "What is the difference between adjustment of status and consular processing?"
+- "How long can a permanent resident remain outside the United States?"
+- "What evidence is commonly required for family-based petitions?"
+- "What immigration options exist for victims of certain crimes?" Responses are generated from indexed knowledge sources and may include citations to supporting materials when configured.
+
+# Compliance Notice 
+Immigration Office Solutions is intended to provide informational and workflow support tools. 
+
+The platform does not provide legal advice, establish an attorney-client relationship, or replace consultation with a qualified immigration attorney or accredited representative. 
+
+Organizations deploying this software are responsible for ensuring compliance with applicable federal, state, and local laws, regulations, privacy requirements, and professional responsibility obligations. 
+
+## Development 
+
+### Local Setup 
+```sh
+git clone https://github.com/hiremeforwork/immigrationofficesolutions.git
+cd immigrationofficesolutions
+```
+### Configuration
+1. Configure database connection settings.
+2. Configure Clinfera API credentials.
+3. Import the knowledge base.
+4. Configure authentication providers.
+5. Deploy application services.
+
+## Roadmap
+- Additional multilingual support
+- Expanded immigration law knowledge indexing
+- Enhanced document automation
+- Mobile application support
+- Advanced analytics dashboard
+- Case workflow automation
+- Federated knowledge sources
+- AI-assisted form preparation
+
+# License
+Copyright © 2026 PRESSPAGE ENTERTAINMENT INC. All rights reserved unless otherwise specified by the applicable project license.
